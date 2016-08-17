@@ -68,7 +68,15 @@ navigation ul li a {
 #banner {
 	width:1200px;
 	height:300px;
-	margin:0px auto;	
+	margin:0px auto;
+	padding:10px 0px 70px 30px;	
+}
+
+#content {
+	width:1200px;
+	height:1000px;
+	margin:0px auto;
+	font-family: 'Francois One', sans-serif;
 }
 
 #spotlights ul {
@@ -86,25 +94,71 @@ navigation ul li a {
     width: 100%;
 }
 
+#shop {
+	width:875px;
+	height:100%;
+	margin-right:45px;
+	float:right;
+}
+
+
 #catbanner {
+	background:url('images/catbanner.png');
+	background-size: 870px 300px;
+    background-repeat: no-repeat;
 	width:870px;
-	height:300px;	
+	height:300px;
 }
 
-#spotlights h2 {
-	position: absolute; 
-   top: 250px; 
-   left: 0; 
-   width: 100%;
+#banner-blip {
+	float:right;
+	margin-top:200px;
+	margin-right:80px;
+	opacity:0.9;
+	background:#f16566;
+	text-align:center;
+	padding:15px;
 }
 
-#spotlights h2 span { 
-   color: #FDF6A7; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.7);
-   padding: 20px; 
+#banner-blip a {
+	font-family: 'Francois One', sans-serif;
+	text-decoration:none;
+	color:#fdf6a7;
+	font-size:22px;
+}
+
+#sl-blip {
+	float:right;
+	margin-top:-90px;
+	margin-right:80px;
+	opacity:0.9;
+	background:#f16566;
+	text-align:center;
+	padding:15px;
+}
+
+#sl-blip a {
+	font-family: 'Francois One', sans-serif;
+	text-decoration:none;
+	color:#fdf6a7;
+	font-size:22px;
+}
+
+#flex-blip {
+	float:right;
+	margin-top:-90px;
+	margin-right:80px;
+	opacity:0.9;
+	background:#f16566;
+	text-align:center;
+	padding:15px;
+}
+
+#flex-blip a {
+	font-family: 'Francois One', sans-serif;
+	text-decoration:none;
+	color:#fdf6a7;
+	font-size:22px;
 }
 
 #spotlights ul li img {
@@ -114,16 +168,44 @@ navigation ul li a {
 
 #sidebar {
 	width:185px;	
+	float:left;
 }
 
 #sidebar ul {
 	list-style-type:none;	
+	margin-top:0px;
+	margin-right:-18px;
 }
 
 #sidebar ul li {
 	background:#e0f3fa;	
+	padding:10px 15px;
+	text-align:right;
 }
 
+#sidebar ul li a{
+	text-decoration:none;
+	color:#000000;
+	font-size:14px;
+}
+
+#filters {
+	width:185px;
+	height:650px;
+	background:#e0f3fa;
+	padding:10px 15px;
+}
+
+#filters h4 {
+	background:#9cdbf6;
+	height:30px;
+	margin-top:-10px;
+	margin-left:-15px;
+	padding-left:15px;
+	padding-top:15px;
+	width:200px;
+}
+		
 footer {
 	width:100%;	
 	text-align:center;
@@ -161,4 +243,44 @@ footer {
 
 #copy p {
 	text-align:center;	
+}
+
+
+
+
+/*    ACCORDIAN   */
+
+button.accordion {
+    background-color: #e0f3fa;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size:16px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #9cdbf6;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+div.panel ul li {
+	list-style-type:none;
+}
+
+div.panel ul li a {
+	text-decoration:none;
+}
+
+div.panel.show {
+    display: block;
 }
