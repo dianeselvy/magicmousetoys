@@ -1,0 +1,164 @@
+#header {
+	width:1200px;
+	height:185px;
+	margin:0px auto;
+}
+
+#logo {
+	margin-top:30px;
+}
+
+#logo a img {
+	width:274px;
+	height:140px;	
+	float:left;
+}
+
+#social {
+	text-align:right;
+	float:right;
+}
+
+#social ul {
+	font-family: 'Oswald', sans-serif;	
+}
+
+#social ul li {
+	list-style-type:none;
+	padding-bottom:15px;
+}
+
+#social ul li a {
+	text-decoration:none;
+	color:#ED666D;
+}
+
+#social ul li a img {
+	width:40px;
+	height:40px;
+	padding-left:10px;
+}
+	
+navigation {
+	width:1200px;
+	height:65px;
+}
+
+navigation ul {
+	background:#FDF6A7;
+	font-family: 'Francois One', sans-serif;
+	text-align:center;
+	font-size:22px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+navigation ul li {
+	list-style-type:none;
+	padding:75px; 
+	display:inline;
+	size:20px;
+}
+
+navigation ul li a {
+	text-decoration:none;
+	color:#000000;
+}
+
+#banner {
+	width:1200px;
+	height:300px;
+	margin:0px auto;	
+}
+
+#spotlights ul {
+	list-style-type:none;
+	font-family: 'Francois One', sans-serif;
+	margin:0px auto;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+#spotlights ul li {
+	display:inline;	
+	/*padding:0px 10px;*/
+	position: relative; 
+    width: 100%;
+}
+
+#catbanner {
+	width:870px;
+	height:300px;	
+}
+
+#spotlights h2 {
+	position: absolute; 
+   top: 250px; 
+   left: 0; 
+   width: 100%;
+}
+
+#spotlights h2 span { 
+   color: #FDF6A7; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px; 
+}
+
+#spotlights ul li img {
+	width:390px;
+	height:330px;
+}
+
+#sidebar {
+	width:185px;	
+}
+
+#sidebar ul {
+	list-style-type:none;	
+}
+
+#sidebar ul li {
+	background:#e0f3fa;	
+}
+
+footer {
+	width:100%;	
+	text-align:center;
+	margin:0px auto;
+}
+
+#sitemap {
+	text-align:center;
+	font-family: 'Francois One', sans-serif;
+	background:#9ADBF6;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#sitemap ul {
+	display:inline;	
+}
+
+#sitemap ul li {
+	display:inline;
+	padding:10px 30px;	
+}
+
+#sitemap ul li a{
+	text-decoration:none;
+	color:#000000;
+}
+
+#copy {
+	height:50px;
+	background:#DFF3FA;
+	font-family: 'Francois One', sans-serif;
+	padding-top:20px;
+}
+
+#copy p {
+	text-align:center;	
+}
