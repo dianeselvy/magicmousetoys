@@ -8,8 +8,24 @@
 <div id="catbanner">
 		<div id="banner-blip">
 			<a href="http://dianeselvy.com/web202/magicmouse/shop/costumes.php">Shop Costumes >></a>
+		</div><!-- end banner-blip -->
+</div><!-- end catbanner -->
+
+<div id="catspotlight">
+		<div class="module1 lr">
+			<a href="#"><strong>Shop Kids Books >></strong></a>
 		</div>
-</div>
+		<div class="module2 lr">
+			<a href="#"><strong>Shop Model Trains >></strong></a>
+		</div>
+		<div class="module3 lr">
+			<a href="#"><strong>Shop All Projects >></strong></a>
+		</div>
+		<div class="module4 lr">
+			<a href="#"><strong>Shop Plush Animals >></strong></a>
+		</div>
+</div><!-- end catspotlight -->
+
 </div> <!--end shop -->
 
 
