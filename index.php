@@ -28,7 +28,6 @@
 <div id="spotlights">
 	<ul>	
 		<li>
-		
 		<img src='images/spotlight1.png'>
 		</li>
 		<li>

@@ -7,7 +7,7 @@
 <br>
 <div id="catbanner">
 		<div id="banner-blip">
-			<a href="http://dianeselvy.com/web202/magicmouse/shop/costumes.php">Shop Costumes >></a>
+			<a href="http://dianeselvy.com/web202/magicmouse/shop/costumes/index.php">Shop Costumes >></a>
 		</div><!-- end banner-blip -->
 </div><!-- end catbanner -->
 
@@ -73,7 +73,7 @@
 	  <li><a href="">Disney</a></li>
 	  <li><a href="">Firefighter</a></li>
 	  <li><a href="">Unicorn</a></li>
-	  <li><a href="http://dianeselvy.com/web202/magicmouse/shop/costumes.php">Browse All >></a></li>
+	  <li><a href="http://dianeselvy.com/web202/magicmouse/shop/costumes/index.php">Browse All >></a></li>
 	  	</ul>
 </div>
 

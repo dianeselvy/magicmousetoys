@@ -74,9 +74,53 @@ navigation ul li a {
 
 #content {
 	width:1200px;
-	height:1000px;
+	height:1150px;
 	margin:0px auto;
 	font-family: 'Francois One', sans-serif;
+}
+
+#productinfo {
+	margin-left:600px;	
+	margin-top:60px;
+}
+
+#productinfo h3 {
+	color:green;	
+}
+
+#productinfo a {
+	text-decoration:none;
+}
+
+#produtinfo p {
+	font-size:18px;
+}
+
+#productinfo input {
+	padding:8px;
+	border-radius:5px;
+	border-color:#9ADBF6;
+}
+
+#productinfo select {
+	font-size:18px;
+	border-color:#9ADBF6;
+	border-radius:5px;
+	padding:10px;
+	margin-top:20px;
+}
+
+#productphoto img {
+	float:left;
+	height:470px;
+	margin-left:80px;
+	margin-top:70px;
+}
+
+#productinfo img {
+	height:35px;
+	width:35px;
+	padding-right:15px;
 }
 
 #spotlights ul {
@@ -107,6 +151,14 @@ navigation ul li a {
 	margin:0px auto;
 	text-align:center;
 	margin-top: 5%;
+}
+
+#costumes {
+	width:870px;
+	height:	1025px;
+	margin:0px auto;
+	text-align:center;
+	margin-top: 5%;	
 }
 
 .lr a {
@@ -187,6 +239,120 @@ navigation ul li a {
   position: relative;
   float: left;
 }
+
+.module5 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/catspot4.png');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 60px;
+  position: relative;
+  float: left;
+}
+
+.module6 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/catspot4.png');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 150px;
+  position: relative;
+  float: left;
+}
+
+/* SUBCATEGORY STYLES */	
+.cmodule1 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/astronaut.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 60px;
+  position: relative;
+  float: left;
+}
+
+.cmodule2 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/princess.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 150px;
+  position: relative;
+  float: left;
+}
+
+.cmodule3 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/fireman.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 60px;
+  position: relative;
+  float: left;
+}
+
+.cmodule4 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/unicorn.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 150px;
+  position: relative;
+  float: left;
+}
+
+.cmodule5 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/character.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 60px;
+  position: relative;
+  float: left;
+}
+
+.cmodule6 {
+  background: /*linear-gradient(
+      rgba(241, 112, 114, 0.18),
+      rgba(241, 112, 114, 0.18)
+    ),*/
+    url('images/dinosaur.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 90px 0 0 150px;
+  position: relative;
+  float: left;
+}
+
 
 #catbanner {
 	background:url('images/catbanner.png');
@@ -275,9 +441,17 @@ navigation ul li a {
 	font-size:14px;
 }
 
+#princess ul li {
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	display:inline;
+	padding:15px;
+}
+
 #filters {
 	width:185px;
-	height:650px;
+	height:800px;
 	background:#e0f3fa;
 	padding:10px 15px;
 }
