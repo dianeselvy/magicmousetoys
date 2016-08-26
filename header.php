@@ -38,9 +38,9 @@ $(window).load(function() {
     
 	<div id="social">
 	  <ul>
-	    <li><a href="#">Login/Register</a> </li>
-	    <li><a href="#"><img src="images/yelp.png"></a> <a href="#"><img src="images/fb.png"></a> <a href="#"><img src="images/cart.png"></a> </li>
-	    <li><a href="#"><img src="images/mag.png" style="width:25px;height:25px;">  Search</a></li>
+	    <li><a href="http://dianeselvy.com/web202/magicmouse/login.php">Login/Register</a> </li>
+	    <li><a href="https://www.yelp.com/biz/magic-mouse-toys-seattle"><img src="images/yelp.png"></a> <a href="https://www.facebook.com/Magic-Mouse-Toys-124297494300599/"><img src="images/fb.png"></a> <a href="http://dianeselvy.com/web202/magicmouse/shop/summary.php"><img src="images/cart.png"></a> </li>
+	    <li><a href="#"><img src="images/mag.png" style="width:20px;height:20px;">  Search</a></li>
 	  </ul>
 	</div>
 </div>

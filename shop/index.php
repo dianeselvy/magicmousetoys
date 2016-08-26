@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 
-<div id="content">
+<div id="cat-content">
 <div id="shop">
 <p>Shop</p>
 <hr>
